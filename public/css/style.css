@@ -1,0 +1,29 @@
+*{
+    list-style: none;
+}
+#btn{
+    outline: none;
+    height: 60px;
+     width: 60px;
+    border-radius: 50%;
+    float: right;
+}
+.icon-user{
+    float: right;
+    font-size: 50px;
+}
+.icon-send{
+    font-size: 20px;
+}
+.chat{  
+    overflow-y: scroll;
+}
+.li-chat{
+    font-family: 'Courier New', Courier, monospace;
+    padding: 5px;
+    display: inline-block;
+    font-size: 20px;
+    color: aliceblue;
+    border-radius: 10px;
+    background:rgb(25, 146, 216);
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <title>Chat</title>
+</head>
+<body class="bg-success">
+    <header>
+        <nav class="bg-primary navbar">
+            <h2 class="text-center">Chat</h2>  
+        </nav>
+    </header>
+    <div class="container">
+        <div class="col-md-12">   
+            <div class="card">        
+                 <div class="mensajes">
+                <h1> Mensajes</h1>
+                <div class="chat bg-info">
+                </div>
+            </div>    
+            </div>   
+<form class="form col-md-6 bg-info ">
+<input type="text" id="message" autocomplete="off" placeholder="Mensaje" class="form-control">
+<button type="submit" id="btn" class="btn btn-primary icon-send "></button> 
+</form>
+</div>
+</div>
+<footer>
+    <h2>&copy;Copyright 2021 </h2>
+</footer>
+<!-- Jquery -->
+<script src="assets/jquery.min.js"></script>
+<!-- Main -->
+<script src="js/main.js"></script>
+<!-- Sockets -->
+    <script src="socket.io/socket.io.js"></script>
+</body>
+</html>
